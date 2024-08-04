@@ -11,5 +11,5 @@ COPY target/clientes_api.jar /app/cliente_api.jar
 EXPOSE 8080
 
 # Comando para iniciar la aplicación, usando las variables de entorno
-ENTRYPOINT ["java", "-jar", "/app/app.jar"]
+ENTRYPOINT ["java", "-jar", "/app/cliente_api.jar"]
 
